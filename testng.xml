@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Alexie">
+    <listeners>
+        <listener class-name="commons.Driver"></listener>
+    </listeners>
+    <test name="TestDemo">
+        <classes>
+            <class name="TestScript.LoginTestS"></class>
+            <class name="TestScript.SearchTest"></class>
+            <class name="TestScript.ChooseTest"></class>
+            <class name="TestScript.MultipleTest"></class>
+            <class name="TestScript.MybagCountTest"></class>
+            <class name="TestScript.itemcountchangeTest"></class>
+            <class name="TestScript.CoupenCheckTest"></class>
+            <class name="TestScript.InvalidCoupenTest"></class>
+            <class name="TestScript.GetAllCoupenTest"></class>
+            <class name="TestScript.CoupenSavingandPopupTest"></class>
+            <class name="TestScript.DeleteCartItemTest"></class>
+            <class name="TestScript.AddaNewAddressTest"></class>
+        </classes>
+    </test>
+</suite>
